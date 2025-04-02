@@ -7,6 +7,7 @@ ViST is a C++ implementation of the Vision Transformer (ViT) model for image cla
 - C++17 or newer.
 - Clang (or configure CMakeLists.txt)
 - CMake (for building the project).
+- stb_image.h for loading images
 
 ## Setup & Installation
 
@@ -79,3 +80,4 @@ Example:
 ```
 
 Parameters are hardcoded for now and only supports CPU training
+also uses stb_image.h so it technically isnt only using the std library but dont care
