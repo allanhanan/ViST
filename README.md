@@ -80,4 +80,5 @@ Example:
 ```
 
 Parameters are hardcoded for now and only supports CPU training
-also uses stb_image.h so it technically isnt only using the std library but dont care
+
+also uses stb_image.h so it technically isnt only using the std library but dont care + L + Ratio
