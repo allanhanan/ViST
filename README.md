@@ -1,7 +1,7 @@
 # ViST  
 **Vision Transformer from Scratch using only the C++ Standard Library**
 
-ViST is a C++ implementation of the Vision Transformer (ViT) model for image classification. This project builds the ViT model from scratch using only the C++ standard library. Currently it classifies images into 3 classes
+ViST is a C++ implementation of the Vision Transformer (ViT) model for image classification only using the C++ standard library. Currently it classifies images into 3 classes
 
 ## Requirements
 - C++17 or newer.
@@ -23,7 +23,7 @@ cd ViST
 
 Ensure you have **CMake** installed.
 
-From the project root directory, create a build directory and compile the project:
+From the project root directory, create a build directory and compile:
 
 ```bash
 mkdir build
@@ -39,13 +39,13 @@ This will generate the executable \`ViT\` in the \`build\` folder.
 ## Usage
 
 ### 1. Training the model  
-To start training the model, simply run the following command from the root directory:
+To train the model, run thecommand from the project's root directory:
 
 ```bash
 ./ViT
 ```
 
-The program will start training the model using the images located in the following directory structure:
+It will start training the model using the images located in the following directory structure:
 
 ```
 program_root/
@@ -67,7 +67,7 @@ program_root/
 **Note**: The image directory path is currently hardcoded in the source code.
 
 ### 2. Testing the model  
-After training the model, you can test it on an image by running:
+After training the model, test it on an image by running:
 
 ```bash
 ./ViT /path/to/model_checkpoint.bin /path/to/test_image.png
